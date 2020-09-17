@@ -60,7 +60,7 @@ const Post = ({ imageUrl, username, caption, postId, user }) => {
       <div className="post__comments">
         {comments.map((comment) => (
           <p>
-            <strong>{comment.username}</strong> {comment.text}
+            <strong>{comment.username} : </strong> {comment.text}
           </p>
         ))}
       </div>
